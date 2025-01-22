@@ -1,0 +1,46 @@
+services:
+  db: 
+    image: postgres:17
+    ports:
+      - 5432:5432
+
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./.data/dev/postgres:/var/lib/postgresql/data
+
+  minio:
+    image: minio/minio:latest
+    container_name: minio
+    ports:
+      - 9000:9000
+      - 9001:9001
+
+    environment:
+      MINIO_ACCESS_KEY: ${AWS_ACCESS_KEY_ID}
+      MINIO_SECRET_KEY: ${AWS_SECRET_ACCESS_KEY}
+      MINIO_DEFAULT_BUCKETS: ${AWS_STORAGE_BUCKET_NAME}
+      MINIO_ROOT_USER: minio
+      MINIO_ROOT_PASSWORD: minio123
+
+    command: server /data --address 0.0.0.0:9000 --console-address :9001
+    volumes:
+      - ./.data/dev/minio:/data
+
+  createbucket:
+    image: minio/mc:latest
+    depends_on:
+      - minio
+    
+    entrypoint: >
+      sh -c "
+      mc config host add --quiet --api s3v4 minio http://minio:9000 minio minio123;
+      mc rb --force minio/${AWS_STORAGE_BUCKET_NAME};
+      mc mb --quiet minio/${AWS_STORAGE_BUCKET_NAME};
+      "

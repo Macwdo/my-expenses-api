@@ -1,0 +1,6 @@
+.data/
+.venv/
+static/
+dotenv_files/
+__pycache__
+*.pyc

@@ -1,0 +1,75 @@
+services:
+  app:
+    container_name: macedo-azevedo-api
+    image: macedo-azevedo-api
+    build:
+      context: .
+
+    ports:
+      - 8000:8000
+    env_file:
+      - infra/dotenv_files/.env.compose
+
+    depends_on:
+      - db
+      - minio
+
+  app_nginx:
+    container_name: macedo-azevedo-api-nginx
+    image: macedo-azevedo-api-nginx
+    build: 
+      context: infra/nginx/
+      dockerfile: Dockerfile
+
+    volumes:
+      - ./src/static:/app/static
+
+    ports:
+      - 80:80
+
+    depends_on:
+      - app
+
+  db: 
+    image: postgres:17
+    ports:
+      - 5432:5432
+
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+
+    volumes:
+      - ./.data/prod/postgres:/var/lib/postgresql/data
+
+  minio:
+    image: minio/minio:latest
+    container_name: minio
+    ports:
+      - 9000:9000
+      - 9001:9001
+
+    environment:
+      MINIO_ACCESS_KEY: ${AWS_ACCESS_KEY_ID}
+      MINIO_SECRET_KEY: ${AWS_SECRET_ACCESS_KEY}
+      MINIO_DEFAULT_BUCKETS: ${AWS_STORAGE_BUCKET_NAME}
+      MINIO_ROOT_USER: minio
+      MINIO_ROOT_PASSWORD: minio123
+
+    command: server /data --address 0.0.0.0:9000 --console-address :9001
+    volumes:
+      - ./.data/prod/minio:/data
+
+  createbucket:
+    image: minio/mc:latest
+    depends_on:
+      - minio
+    
+    entrypoint: >
+      sh -c "
+      mc config host add --quiet --api s3v4 minio http://minio:9000 minio minio123;
+      mc rb --force minio/${AWS_STORAGE_BUCKET_NAME};
+      mc mb --quiet minio/${AWS_STORAGE_BUCKET_NAME};
+      "
