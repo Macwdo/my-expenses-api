@@ -19,6 +19,7 @@ dependencies = [
     "django-silk>=5.3.1",
     "django-cors-headers>=4.6.0",
     "gunicorn>=23.0.0",
+    "openai>=1.59.9",
 ]
 
 [dependency-groups]

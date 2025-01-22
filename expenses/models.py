@@ -21,36 +21,46 @@ from common.models import BaseModel, MoneyField
 
 
 
-class SourceCategory(BaseModel):
-    name = models.CharField(max_length=255)
-    description = models.TextField(blank=True, null=True)
     
-class Source(BaseModel):
-    name = models.CharField(max_length=255)
-    source_name = models.CharField(max_length=255)
-    description = models.TextField(blank=True, null=True)
-
-    category = models.ForeignKey(SourceCategory, on_delete=models.CASCADE)
-
 class Transaction(BaseModel):
-    class TransactionType(models.TextChoices):
+    class Type(models.TextChoices):
         EXPENSE = "EXPENSE", "Expense"
         INCOME = "INCOME", "Income"
+        
+    class Origin(models.TextChoices):
+        CREDIT_CARD = "CREDIT_CARD", "Credit Card"
+        PIX = "PIX", "Pix"
     
-    type = models.CharField(max_length=20, choices=TransactionType.choices)
+    class Category(models.TextChoices):
+        FOOD = "Food", "Food"
+        TRANSPORTATION = "Transportation", "Transportation"
+        EDUCATION = "Education", "Education"
+        HEALTH = "Health", "Health"
+        ENTERTAINMENT = "Entertainment", "Entertainment"
+        SHOPPING = "Shopping", "Shopping"
+        TRANSFER = "Transfer", "Transfer"
+        BILL = "Bill", "Bill"
+        SUBSCRIPTION = "Subscription", "Subscription"
+        OTHER = "Other", "Other"
+        NOT_IDENTIFIED = "Not Identified", "Not Identified"
+    
+    
+    type = models.CharField(max_length=20, choices=Type.choices)
+    category = models.CharField(
+        max_length=255,
+        choices=Category.choices,
+        default=Category.NOT_IDENTIFIED,
+        null=True,
+    )
+    origin = models.CharField(max_length=20, choices=Origin.choices)
 
     updated = models.BooleanField(default=False)
     imported = models.BooleanField(default=False)
     
-    value = MoneyField()
+    value = MoneyField(decimal_places=2, max_digits=10)
     date = models.DateField()
 
-    source = models.ForeignKey(
-        Source,
-        on_delete=models.CASCADE,
-        blank=True,
-        null=True,
-    )
+    source_name = models.CharField(max_length=255)
     
 class CreditTransaction(BaseModel):
     transaction = models.ForeignKey(Transaction, on_delete=models.CASCADE)

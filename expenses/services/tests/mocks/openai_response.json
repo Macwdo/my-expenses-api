@@ -1,0 +1,507 @@
+[
+    [
+        {
+            "id": "fd2e597c-b598-4f4e-bec7-43aec6d843d0",
+            "date": "2024-12-28",
+            "title": "Burger King",
+            "amount": 36.8,
+            "category": "Food"
+        },
+        {
+            "id": "ad45ab9d-555a-4b8c-a290-65acd62bff4c",
+            "date": "2024-12-28",
+            "title": "Zig*Park Rio",
+            "amount": 41.58,
+            "category": "Transportation"
+        },
+        {
+            "id": "98b948d5-6443-4fe5-a29b-934866e33b50",
+            "date": "2024-12-28",
+            "title": "Uber - NuPay",
+            "amount": 9.44,
+            "category": "Transportation"
+        },
+        {
+            "id": "0f9ebd4f-6d47-4b33-871d-835c95d45ebc",
+            "date": "2024-12-28",
+            "title": "Uber - NuPay",
+            "amount": 13.19,
+            "category": "Transportation"
+        },
+        {
+            "id": "1edfea76-4bc1-454b-9dd6-ab407565c391",
+            "date": "2024-12-27",
+            "title": "Kaeru Taste Maker",
+            "amount": 239.8,
+            "category": "Food"
+        },
+        {
+            "id": "27c4b1cb-26fb-4746-81d7-75680a5bde2a",
+            "date": "2024-12-27",
+            "title": "Posto de Gasolina Recr",
+            "amount": 40.0,
+            "category": "Transportation"
+        },
+        {
+            "id": "000ac9ee-9626-468e-a8ef-05a003d89162",
+            "date": "2024-12-27",
+            "title": "43440242helio",
+            "amount": 22.0,
+            "category": "Other"
+        },
+        {
+            "id": "34d658b0-6769-4334-91c8-d386d1189fdc",
+            "date": "2024-12-27",
+            "title": "Burger King",
+            "amount": 10.9,
+            "category": "Food"
+        },
+        {
+            "id": "0b1e4544-7051-4203-b209-e3a2376cc8e0",
+            "date": "2024-12-27",
+            "title": "Lojas Renner Fl",
+            "amount": 219.9,
+            "category": "Shopping"
+        },
+        {
+            "id": "1730fd01-1489-41ee-9eb9-9b3f8bb53521",
+            "date": "2024-12-26",
+            "title": "Danielcostados",
+            "amount": 59.0,
+            "category": "Food"
+        },
+        {
+            "id": "ff81a804-684e-4ccb-b3c8-e5599c469319",
+            "date": "2024-12-25",
+            "title": "Portal das Americas",
+            "amount": 40.0,
+            "category": "Food"
+        },
+        {
+            "id": "8c30afb0-5941-45e6-ac95-130ff6da3a35",
+            "date": "2024-12-25",
+            "title": "Lojas Americanas",
+            "amount": 74.94,
+            "category": "Shopping"
+        },
+        {
+            "id": "52539ada-2907-4bdc-b6b8-b14a54344061",
+            "date": "2024-12-22",
+            "title": "Francisco",
+            "amount": 100.0,
+            "category": "Food"
+        },
+        {
+            "id": "aecf45e4-6b38-4063-8f87-a7045fc0185a",
+            "date": "2024-12-22",
+            "title": "Rezende Alimentos Jpa",
+            "amount": 20.55,
+            "category": "Food"
+        },
+        {
+            "id": "dbf1e6d4-e4a5-443f-ba53-e1b2c47a3434",
+            "date": "2024-12-22",
+            "title": "Marcelolanches",
+            "amount": 30.0,
+            "category": "Food"
+        },
+        {
+            "id": "a9734dd6-68a2-4dab-9e48-0064ed9c9d89",
+            "date": "2024-12-22",
+            "title": "Lojade",
+            "amount": 23.29,
+            "category": "Shopping"
+        },
+        {
+            "id": "bde3f402-bdc4-40d7-8729-a5065b29a042",
+            "date": "2024-12-22",
+            "title": "Drogaria Camorim",
+            "amount": 41.75,
+            "category": "Health"
+        },
+        {
+            "id": "f384f675-cfee-4b9f-9818-3f631f82b4e7",
+            "date": "2024-12-22",
+            "title": "Edileneperespesso",
+            "amount": 14.0,
+            "category": "Health"
+        },
+        {
+            "id": "e222c523-e557-476d-83e4-fbf42f6a339a",
+            "date": "2024-12-22",
+            "title": "Mepayfinancial",
+            "amount": 38.5,
+            "category": "Other"
+        },
+        {
+            "id": "d7db37d2-6318-498b-a5d7-64b94e20ffd7",
+            "date": "2024-12-22",
+            "title": "Drogaria Camorim",
+            "amount": 11.59,
+            "category": "Health"
+        },
+        {
+            "id": "1973c3f7-0447-490d-998a-1e86d6c8f363",
+            "date": "2024-12-21",
+            "title": "Supermercados Vianense",
+            "amount": 20.97,
+            "category": "Food"
+        },
+        {
+            "id": "e1db8135-694d-4dde-bede-bbbfa46523a4",
+            "date": "2024-12-21",
+            "title": "Uber* Trip",
+            "amount": 25.27,
+            "category": "Transportation"
+        },
+        {
+            "id": "0dcd4478-39f9-4dba-91f3-0f7effa62cce",
+            "date": "2024-12-21",
+            "title": "Supermercados Vianense",
+            "amount": 63.09,
+            "category": "Food"
+        },
+        {
+            "id": "88aa9547-ca3d-460d-b86f-cab1ad5dfd89",
+            "date": "2024-12-21",
+            "title": "Deposito Camo",
+            "amount": 24.0,
+            "category": "Transfer"
+        },
+        {
+            "id": "3ecc0bc0-e8b9-477f-8c3a-d398d7e8beb1",
+            "date": "2024-12-21",
+            "title": "Supermercados Vianense",
+            "amount": 9.89,
+            "category": "Food"
+        },
+        {
+            "id": "0007bc2e-6a21-430e-bda6-f19a3537d0c5",
+            "date": "2024-12-21",
+            "title": "Uber - NuPay",
+            "amount": 25.93,
+            "category": "Transportation"
+        },
+        {
+            "id": "9b716439-4ddb-4b8e-b6a7-1903e2944638",
+            "date": "2024-12-20",
+            "title": "Barelanchonete",
+            "amount": 22.0,
+            "category": "Food"
+        },
+        {
+            "id": "f0e96070-d500-4c53-b95c-5834a9905946",
+            "date": "2024-12-20",
+            "title": "Posto de Gasolina Recr",
+            "amount": 30.0,
+            "category": "Transportation"
+        },
+        {
+            "id": "c412d368-f352-4d23-bd96-c722c0803fe4",
+            "date": "2024-12-19",
+            "title": "Mp *Baburguer",
+            "amount": 32.0,
+            "category": "Food"
+        },
+        {
+            "id": "19bcbd29-4794-46f7-b87c-ae3b06b6d2fd",
+            "date": "2024-12-19",
+            "title": "Mp *Baburguer",
+            "amount": 6.0,
+            "category": "Food"
+        },
+        {
+            "id": "8d6fef6c-2160-477e-82de-413f6e9a39b7",
+            "date": "2024-12-19",
+            "title": "Rainha do Acaraje",
+            "amount": 38.0
+        },
+        {
+            "id": "66700583-f7e4-43a3-80c8-04f1daafd21b",
+            "date": "2024-12-19",
+            "title": "Contabilizei Tecnologi",
+            "amount": 369.0,
+            "category": "Education"
+        },
+        {
+            "id": "37d9a1d7-c08c-4d91-93a4-82aa9cbaa85c",
+            "date": "2024-12-19",
+            "title": "Acai Numero",
+            "amount": 24.0,
+            "category": "Food"
+        },
+        {
+            "id": "03963491-6fe9-4ebb-b896-0e7a3488b734",
+            "date": "2024-12-18",
+            "title": "Autoposto",
+            "amount": 10.48,
+            "category": "Transportation"
+        },
+        {
+            "id": "4bab3016-0a19-4f4a-bb57-2962c8d34f1e",
+            "date": "2024-12-16",
+            "title": "Google One",
+            "amount": 7.99,
+            "category": "Subscription"
+        },
+        {
+            "id": "ab22ddb9-e3d3-422e-8bb9-4f144d34d1ca",
+            "date": "2024-12-16",
+            "title": "Sergionatansantos",
+            "amount": 79.7,
+            "category": "Shopping"
+        },
+        {
+            "id": "9df9d455-c6bb-479b-8c05-cf0e5c786d07",
+            "date": "2024-12-16",
+            "title": "Espacolaser",
+            "amount": 104.09,
+            "category": "Health"
+        },
+        {
+            "id": "f08eb5e3-ad71-455e-991b-aced92ddacf6",
+            "date": "2024-12-15",
+            "title": "Zona Sul Fl",
+            "amount": 31.44,
+            "category": "Food"
+        },
+        {
+            "id": "f9f5214f-845a-4dcd-9ac3-04f8394835c7",
+            "date": "2024-12-15",
+            "title": "Casa Pilao",
+            "amount": 31.5,
+            "category": "Food"
+        },
+        {
+            "id": "14e46a03-0377-4617-93a8-ea44f362d34a",
+            "date": "2024-12-15",
+            "title": "Posto de G e S R",
+            "amount": 50.0,
+            "category": "Transportation"
+        },
+        {
+            "id": "3c6ec6ee-3472-4301-b805-849395fd9f32",
+            "date": "2024-12-15",
+            "title": "Joias K",
+            "amount": 85.0,
+            "category": "Shopping"
+        },
+        {
+            "id": "c78927e5-4f7b-4afc-a425-254c52e82fd0",
+            "date": "2024-12-15",
+            "title": "Dm *Riot Games",
+            "amount": 41.9,
+            "category": "Entertainment"
+        },
+        {
+            "id": "767bb376-8413-4cf0-bc36-9ec2d4661f75",
+            "date": "2024-12-14",
+            "title": "Supermercados Vianense",
+            "amount": 62.85,
+            "category": "Food"
+        },
+        {
+            "id": "f6a20134-1a04-4db2-abf7-138d896955fd",
+            "date": "2024-12-14",
+            "title": "Uber - NuPay",
+            "amount": 10.9,
+            "category": "Transportation"
+        },
+        {
+            "id": "dacbb8be-42fa-4c9a-b648-32fe41ba7bfe",
+            "date": "2024-12-14",
+            "title": "Uber - NuPay",
+            "amount": 15.9,
+            "category": "Transportation"
+        },
+        {
+            "id": "c3e7709e-e4fe-4117-9bb9-11a353047b29",
+            "date": "2024-12-14",
+            "title": "Uber - NuPay",
+            "amount": 11.94,
+            "category": "Transportation"
+        },
+        {
+            "id": "9430f3ed-c28a-453e-8894-c26f98b33442",
+            "date": "2024-12-12",
+            "title": "Supermercados Vianense",
+            "amount": 48.24,
+            "category": "Food"
+        },
+        {
+            "id": "84d1729e-4943-43a8-8fee-263d83737973",
+            "date": "2024-12-12",
+            "title": "Pagamento recebido",
+            "amount": -685.26,
+            "category": "Transfer"
+        },
+        {
+            "id": "09c0185e-d465-4ea0-ac36-24c3b8ddf009",
+            "date": "2024-12-11",
+            "title": "Estrela do Pontal",
+            "amount": 21.0,
+            "category": "Food"
+        },
+        {
+            "id": "66897eb6-c238-4416-83e9-7c9c7dc4aadf",
+            "date": "2024-12-10",
+            "title": "Ifd*Ifood Club",
+            "amount": 5.95,
+            "category": "Subscription"
+        },
+        {
+            "id": "d50d819a-04ae-45fc-b253-95c8edc85b28",
+            "date": "2024-12-09",
+            "title": "Francisco",
+            "amount": 12.0,
+            "category": "Food"
+        },
+        {
+            "id": "995fbfb0-dab4-49a3-bfbe-10cb929382c9",
+            "date": "2024-12-08",
+            "title": "Acaraje da Elen",
+            "amount": 40.0,
+            "category": "Food"
+        },
+        {
+            "id": "c8967a2e-ba2a-44a6-bad1-2411f2501463",
+            "date": "2024-12-08",
+            "title": "Colonial Quiosque",
+            "amount": 30.0,
+            "category": "Food"
+        },
+        {
+            "id": "29b119b9-bfd2-4d36-975b-954c7fd289b2",
+            "date": "2024-12-08",
+            "title": "Posto de Gasolina Recr",
+            "amount": 40.0,
+            "category": "Transportation"
+        },
+        {
+            "id": "bc61bca5-7776-4ad4-a33e-43f9ff745111",
+            "date": "2024-12-07",
+            "title": "Patrick Runge",
+            "amount": 44.92,
+            "category": "Shopping"
+        },
+        {
+            "id": "88ee553c-8242-4100-9ae7-27f95b3fe8e4",
+            "date": "2024-12-07",
+            "title": "Barelanchonete",
+            "amount": 20.0,
+            "category": "Food"
+        },
+        {
+            "id": "88a02c5b-21c8-4085-8430-c42c9668ff43",
+            "date": "2024-12-07",
+            "title": "Posto de Gasolina Recr",
+            "amount": 50.0,
+            "category": "Transportation"
+        },
+        {
+            "id": "a9c2724c-f62b-43f7-ae4f-e877bade4cbe",
+            "date": "2024-12-05",
+            "title": "Google Wm Max Llc",
+            "amount": 39.9,
+            "category": "Subscription"
+        },
+        {
+            "id": "cbbad47d-3b22-4a09-a03b-994113a60f0c",
+            "date": "2024-12-04",
+            "title": "Wellhub Gympass Br Gym",
+            "amount": 85.9,
+            "category": "Subscription"
+        },
+        {
+            "id": "9b658b12-c1d2-46c7-aa3b-a55bd8bff19b",
+            "date": "2024-12-04",
+            "title": "Google Youtube",
+            "amount": 21.9,
+            "category": "Subscription"
+        },
+        {
+            "id": "47ebdb08-6fe9-474e-b180-47d82df91384",
+            "date": "2024-12-03",
+            "title": "Ifd*Padsantamar833751a",
+            "amount": 88.89,
+            "category": "Subscription"
+        },
+        {
+            "id": "0886590f-62e6-455c-9f12-fd25cacc0ca0",
+            "date": "2024-12-02",
+            "title": "Posto de Gasolina Recr",
+            "amount": 40.0,
+            "category": "Transportation"
+        },
+        {
+            "id": "f3a49325-f434-442d-a97d-ebf1a4a4ad89",
+            "date": "2024-12-01",
+            "title": "Drogarias Pacheco",
+            "amount": 96.56,
+            "category": "Health"
+        },
+        {
+            "id": "6a557d8e-22ee-4587-870c-d4ca50459093",
+            "date": "2024-11-29",
+            "title": "Burger King",
+            "amount": 16.05,
+            "category": "Food"
+        },
+        {
+            "id": "812d73a8-3ca0-4baf-96b8-3ab46753a433",
+            "date": "2024-11-29",
+            "title": "Pagamento recebido",
+            "amount": -2137.22,
+            "category": "Transfer"
+        },
+        {
+            "id": "09683690-2bf3-49bb-8b9a-1924ec725390",
+            "date": "2024-11-29",
+            "title": "Burger King",
+            "amount": 0.25,
+            "category": "Food"
+        },
+        {
+            "id": "97d66934-8c37-43d8-8daa-15f752a3a39f",
+            "date": "2024-11-29",
+            "title": "Supermercados Vianense",
+            "amount": 3.19,
+            "category": "Transportation"
+        },
+        {
+            "id": "803408e9-4f24-42a6-a1fe-fd0a2386b708",
+            "date": "2024-11-29",
+            "title": "Supermercados Vianense",
+            "amount": 12.8,
+            "category": "Transportation"
+        },
+        {
+            "id": "7f7a6ac5-8ecb-4ecf-a1a7-0e0898d896d6",
+            "date": "2024-11-29",
+            "title": "Dm *Brainly2911",
+            "amount": 24.0,
+            "category": "Food"
+        },
+        {
+            "id": "aebfc7f1-ca92-4a30-a62b-75319bb4e79d",
+            "date": "2024-11-29",
+            "title": "Burger King",
+            "amount": 0.25,
+            "category": "Food"
+        },
+        {
+            "id": "0e0d3b38-3028-4925-8879-111c0e2038fa",
+            "date": "2024-11-29",
+            "title": "Pagamento recebido",
+            "amount": -96.54,
+            "category": "Transfer"
+        },
+        {
+            "id": "4dd66617-1e01-42b1-9d37-7176bdb17600",
+            "date": "2024-11-29",
+            "title": "Posto de Gasolina Recr",
+            "amount": 40.0,
+            "category": "Transportation"
+        }
+    ]
+]

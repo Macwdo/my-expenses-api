@@ -7,7 +7,7 @@ from django.db import models
 def generate_code():
     return uuid4().hex[:20]
 
-class MoneyField(models.IntegerField):
+class MoneyField(models.DecimalField):
 
     def to_python(self, value):
         try:
